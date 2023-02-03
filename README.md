@@ -1,29 +1,42 @@
 <<<<<<< HEAD
-# discord-dapp
-=======
-# Getting Started with Create React App
+This is my local README content.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This is the README content from GitHub.
+>>>>>>> 040720d (Initial commit)
 
-In the project directory, you can run:
+## Technology Stack & Tools
 
-### `npm start`
+- Solidity (Writing Smart Contracts & Tests)
+- Javascript (React & Testing)
+- [Hardhat](https://hardhat.org/) (Development Framework)
+- [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
+- [React.js](https://reactjs.org/) (Frontend Framework)
+- [Socket.io](https://socket.io/) (Client & Server communication)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Requirements For Initial Setup
+- Install [NodeJS](https://nodejs.org/en/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setting Up
+### 1. Clone/Download the Repository
 
-### `npm test`
+### 2. Install Dependencies:
+`$ npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. Run tests
+`$ npx hardhat test`
 
-### `npm run build`
+### 4. Start Hardhat node
+`$ npx hardhat node`
 
+### 5. Run deployment script
+In a separate terminal execute:
+`$ npx hardhat run ./scripts/deploy.js --network localhost`
+
+### 6. Start Socket.io server
+`$ node server.js`
+
+<<<<<<< HEAD
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
@@ -72,3 +85,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 >>>>>>> 3c77952 (Initialize project using Create React App)
+=======
+### 7. Start frontend
+In a separate terminal execute:
+`$ npm run start`
+>>>>>>> 040720d (Initial commit)
+
+
